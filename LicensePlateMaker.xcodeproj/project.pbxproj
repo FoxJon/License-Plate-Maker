@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0856B341A1050F80090DC0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856B331A1050F80090DC0E /* AppDelegate.swift */; };
+		B0856B361A1050F80090DC0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856B351A1050F80090DC0E /* ViewController.swift */; };
+		B0856B391A1050F80090DC0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0856B371A1050F80090DC0E /* Main.storyboard */; };
+		B0856B3B1A1050F80090DC0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0856B3A1A1050F80090DC0E /* Images.xcassets */; };
+		B0856B3E1A1050F80090DC0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0856B3C1A1050F80090DC0E /* LaunchScreen.xib */; };
+		B0856B4A1A1050F80090DC0E /* LicensePlateMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856B491A1050F80090DC0E /* LicensePlateMakerTests.swift */; };
+		B0856B551A1054B00090DC0E /* PlateMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856B541A1054B00090DC0E /* PlateMaker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0856B441A1050F80090DC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0856B261A1050F80090DC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0856B2D1A1050F80090DC0E;
+			remoteInfo = LicensePlateMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0856B2E1A1050F80090DC0E /* LicensePlateMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicensePlateMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0856B321A1050F80090DC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0856B331A1050F80090DC0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0856B351A1050F80090DC0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = LicensePlateMaker/ViewController.swift; sourceTree = "<group>"; };
+		B0856B381A1050F80090DC0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0856B3A1A1050F80090DC0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0856B3D1A1050F80090DC0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0856B431A1050F80090DC0E /* LicensePlateMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicensePlateMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0856B481A1050F80090DC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0856B491A1050F80090DC0E /* LicensePlateMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicensePlateMakerTests.swift; sourceTree = "<group>"; };
+		B0856B531A1051EA0090DC0E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		B0856B541A1054B00090DC0E /* PlateMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlateMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0856B2B1A1050F80090DC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856B401A1050F80090DC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0856B251A1050F80090DC0E = {
+			isa = PBXGroup;
+			children = (
+				B0856B561A1054B70090DC0E /* Model */,
+				B08F8B7E1A10A71E0005EB86 /* View */,
+				B08F8B7D1A10A6FF0005EB86 /* Controller */,
+				B0856B301A1050F80090DC0E /* LicensePlateMaker */,
+				B0856B461A1050F80090DC0E /* LicensePlateMakerTests */,
+				B0856B2F1A1050F80090DC0E /* Products */,
+				B08F8B7F1A10A7410005EB86 /* Playground */,
+			);
+			sourceTree = "<group>";
+		};
+		B0856B2F1A1050F80090DC0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B2E1A1050F80090DC0E /* LicensePlateMaker.app */,
+				B0856B431A1050F80090DC0E /* LicensePlateMakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0856B301A1050F80090DC0E /* LicensePlateMaker */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B331A1050F80090DC0E /* AppDelegate.swift */,
+				B0856B3A1A1050F80090DC0E /* Images.xcassets */,
+				B0856B3C1A1050F80090DC0E /* LaunchScreen.xib */,
+				B0856B311A1050F80090DC0E /* Supporting Files */,
+			);
+			path = LicensePlateMaker;
+			sourceTree = "<group>";
+		};
+		B0856B311A1050F80090DC0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B321A1050F80090DC0E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0856B461A1050F80090DC0E /* LicensePlateMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B491A1050F80090DC0E /* LicensePlateMakerTests.swift */,
+				B0856B471A1050F80090DC0E /* Supporting Files */,
+			);
+			path = LicensePlateMakerTests;
+			sourceTree = "<group>";
+		};
+		B0856B471A1050F80090DC0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B481A1050F80090DC0E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0856B561A1054B70090DC0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B541A1054B00090DC0E /* PlateMaker.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B08F8B7D1A10A6FF0005EB86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B351A1050F80090DC0E /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B08F8B7E1A10A71E0005EB86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B371A1050F80090DC0E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B08F8B7F1A10A7410005EB86 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				B0856B531A1051EA0090DC0E /* MyPlayground.playground */,
+			);
+			name = Playground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0856B2D1A1050F80090DC0E /* LicensePlateMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0856B4D1A1050F80090DC0E /* Build configuration list for PBXNativeTarget "LicensePlateMaker" */;
+			buildPhases = (
+				B0856B2A1A1050F80090DC0E /* Sources */,
+				B0856B2B1A1050F80090DC0E /* Frameworks */,
+				B0856B2C1A1050F80090DC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicensePlateMaker;
+			productName = LicensePlateMaker;
+			productReference = B0856B2E1A1050F80090DC0E /* LicensePlateMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0856B421A1050F80090DC0E /* LicensePlateMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0856B501A1050F80090DC0E /* Build configuration list for PBXNativeTarget "LicensePlateMakerTests" */;
+			buildPhases = (
+				B0856B3F1A1050F80090DC0E /* Sources */,
+				B0856B401A1050F80090DC0E /* Frameworks */,
+				B0856B411A1050F80090DC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0856B451A1050F80090DC0E /* PBXTargetDependency */,
+			);
+			name = LicensePlateMakerTests;
+			productName = LicensePlateMakerTests;
+			productReference = B0856B431A1050F80090DC0E /* LicensePlateMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0856B261A1050F80090DC0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jonfox;
+				TargetAttributes = {
+					B0856B2D1A1050F80090DC0E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B0856B421A1050F80090DC0E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B0856B2D1A1050F80090DC0E;
+					};
+				};
+			};
+			buildConfigurationList = B0856B291A1050F80090DC0E /* Build configuration list for PBXProject "LicensePlateMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0856B251A1050F80090DC0E;
+			productRefGroup = B0856B2F1A1050F80090DC0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0856B2D1A1050F80090DC0E /* LicensePlateMaker */,
+				B0856B421A1050F80090DC0E /* LicensePlateMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0856B2C1A1050F80090DC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0856B391A1050F80090DC0E /* Main.storyboard in Resources */,
+				B0856B3E1A1050F80090DC0E /* LaunchScreen.xib in Resources */,
+				B0856B3B1A1050F80090DC0E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856B411A1050F80090DC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0856B2A1A1050F80090DC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0856B361A1050F80090DC0E /* ViewController.swift in Sources */,
+				B0856B551A1054B00090DC0E /* PlateMaker.swift in Sources */,
+				B0856B341A1050F80090DC0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856B3F1A1050F80090DC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0856B4A1A1050F80090DC0E /* LicensePlateMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0856B451A1050F80090DC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0856B2D1A1050F80090DC0E /* LicensePlateMaker */;
+			targetProxy = B0856B441A1050F80090DC0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0856B371A1050F80090DC0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0856B381A1050F80090DC0E /* Base */,
+			);
+			name = Main.storyboard;
+			path = LicensePlateMaker;
+			sourceTree = "<group>";
+		};
+		B0856B3C1A1050F80090DC0E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0856B3D1A1050F80090DC0E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0856B4B1A1050F80090DC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0856B4C1A1050F80090DC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0856B4E1A1050F80090DC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LicensePlateMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0856B4F1A1050F80090DC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LicensePlateMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0856B511A1050F80090DC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LicensePlateMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicensePlateMaker.app/LicensePlateMaker";
+			};
+			name = Debug;
+		};
+		B0856B521A1050F80090DC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LicensePlateMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicensePlateMaker.app/LicensePlateMaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0856B291A1050F80090DC0E /* Build configuration list for PBXProject "LicensePlateMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0856B4B1A1050F80090DC0E /* Debug */,
+				B0856B4C1A1050F80090DC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0856B4D1A1050F80090DC0E /* Build configuration list for PBXNativeTarget "LicensePlateMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0856B4E1A1050F80090DC0E /* Debug */,
+				B0856B4F1A1050F80090DC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0856B501A1050F80090DC0E /* Build configuration list for PBXNativeTarget "LicensePlateMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0856B511A1050F80090DC0E /* Debug */,
+				B0856B521A1050F80090DC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0856B261A1050F80090DC0E /* Project object */;
+}
