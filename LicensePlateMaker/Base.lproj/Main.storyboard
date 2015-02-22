@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a number to see how many license plates you can make using 9 numbers and 26 letters." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1b-XI-Dsr">
-                                <rect key="frame" x="23" y="64" width="561" height="40.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a number to see how many license plates you can make using 10 numbers and 26 letters." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1b-XI-Dsr">
+                                <rect key="frame" x="162" y="64" width="276" height="61"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a number 1 through 7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQC-6x-LNb">
-                                <rect key="frame" x="201" y="172" width="211" height="20.5"/>
+                                <rect key="frame" x="201" y="172" width="211" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20.5" id="51j-xm-Mct"/>
                                     <constraint firstAttribute="width" constant="211" id="wMt-XM-yTg"/>
@@ -53,7 +53,7 @@
                                     <action selector="generatePlateButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ww8-dP-zpL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X127B05" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfO-Ip-ba1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfO-Ip-ba1">
                                 <rect key="frame" x="204" y="456" width="192" height="63"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -70,8 +70,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="122093 unique plates!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YxL-Gl-b7h">
-                                <rect key="frame" x="162" y="413" width="276" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YxL-Gl-b7h">
+                                <rect key="frame" x="162" y="413" width="276" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="276" id="aJ6-8i-nma"/>
                                     <constraint firstAttribute="height" constant="20.5" id="mRM-XU-OJc"/>
@@ -95,6 +95,7 @@
                             <constraint firstAttribute="centerX" secondItem="oOf-YZ-vSF" secondAttribute="centerX" id="0XK-wZ-hkM"/>
                             <constraint firstItem="d1b-XI-Dsr" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="44" id="3sg-FU-y73"/>
                             <constraint firstItem="oOf-YZ-vSF" firstAttribute="top" secondItem="gQC-6x-LNb" secondAttribute="bottom" constant="14.5" id="50k-qW-3iN"/>
+                            <constraint firstItem="d1b-XI-Dsr" firstAttribute="trailing" secondItem="4xI-Q9-uVK" secondAttribute="trailing" id="6Yi-tU-jyM"/>
                             <constraint firstItem="oOf-YZ-vSF" firstAttribute="top" secondItem="d1b-XI-Dsr" secondAttribute="bottom" constant="69.5" id="7p8-ar-aog"/>
                             <constraint firstAttribute="centerX" secondItem="4xI-Q9-uVK" secondAttribute="centerX" id="8H2-Xc-jcQ"/>
                             <constraint firstItem="gQC-6x-LNb" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="152" id="CVG-oL-vPZ"/>
@@ -103,6 +104,7 @@
                             <constraint firstItem="4xI-Q9-uVK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="152" id="FmM-hA-KIo"/>
                             <constraint firstAttribute="centerX" secondItem="mfO-Ip-ba1" secondAttribute="centerX" id="HHi-Qn-RFk"/>
                             <constraint firstItem="gQC-6x-LNb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="185" id="Hck-l2-2NC"/>
+                            <constraint firstItem="d1b-XI-Dsr" firstAttribute="leading" secondItem="4xI-Q9-uVK" secondAttribute="leading" id="Kps-Gi-NgZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gQC-6x-LNb" secondAttribute="trailing" constant="172" id="LzM-sH-pj2"/>
                             <constraint firstItem="mfO-Ip-ba1" firstAttribute="top" secondItem="YxL-Gl-b7h" secondAttribute="bottom" constant="23" id="PT1-XV-9xS"/>
                             <constraint firstItem="mfO-Ip-ba1" firstAttribute="top" secondItem="YxL-Gl-b7h" secondAttribute="bottom" constant="23" id="V7D-F3-vqO"/>
@@ -124,6 +126,8 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="uJ5-TI-zAi"/>
+                                <exclude reference="zjF-Dc-VVY"/>
                                 <exclude reference="Hck-l2-2NC"/>
                                 <exclude reference="LzM-sH-pj2"/>
                                 <exclude reference="FQ2-ip-a4O"/>

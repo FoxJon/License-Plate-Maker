@@ -16,9 +16,9 @@ class ViewController: UIViewController {
   @IBAction func generatePlateButton(sender: AnyObject) {
     let number: Int? = numberLabel.text.toInt()
     let result = plateMaker.generateNumberOfLicensePlates(slots: number!)
-    numberformatter.numberStyle = NSNumberFormatterStyle.ScientificStyle
+    numberformatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
     let formattedNumber = numberformatter.stringFromNumber(result)
-    uniquePlatesLabel.text = "\(result) unique plates!"
+    uniquePlatesLabel.text = "\(formattedNumber!) unique plates!"
     uniquePlatesLabel.hidden = false
     let plateNumber = plateMaker.generatePlate(slots: number!)
     var character = plateNumber[0]
