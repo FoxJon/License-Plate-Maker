@@ -5,17 +5,17 @@ struct PlateMaker {
   
   let numbers = ["0","1","2","3","4","5","6","7","8","9"]
   
-  func generateNumberOfLicensePlates(#slots: Int) -> Int {
+  func generateNumberOfLicensePlates(slots: Int) -> Int {
     let totalCharacters = alphabet.count + numbers.count
-    return calculatePower(int: totalCharacters, power: slots)
+    return calculatePower(totalCharacters, power: slots)
   }
   
   
-  func generatePlate(#slots: Int) -> Array<String> {
+  func generatePlate(slots: Int) -> Array<String> {
     var tempArray = alphabet + numbers
     var plateArray:[String] = []
     let sum = tempArray.count
-    for i in 1...slots{
+    for _ in 1...slots{
       let random = Int(arc4random_uniform(UInt32(sum)))
       let character = tempArray[random]
       plateArray.append(character)
@@ -25,10 +25,10 @@ struct PlateMaker {
   
   
   //MARK - HELPER
-  func calculatePower(#int: Int, power: Int) -> Int {
+  func calculatePower(int: Int, power: Int) -> Int {
     var sum = 0
     sum = int
-    for i in 1..<power{
+    for _ in 1..<power{
       sum = sum * int
     }
     return sum;

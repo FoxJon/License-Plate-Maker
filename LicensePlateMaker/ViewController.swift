@@ -14,13 +14,13 @@ class ViewController: UIViewController {
   }
 
   @IBAction func generatePlateButton(sender: AnyObject) {
-    let number: Int? = numberLabel.text.toInt()
-    let result = plateMaker.generateNumberOfLicensePlates(slots: number!)
+    let number = Int(numberLabel.text!)
+    let result = plateMaker.generateNumberOfLicensePlates(number!)
     numberformatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
     let formattedNumber = numberformatter.stringFromNumber(result)
     uniquePlatesLabel.text = "\(formattedNumber!) unique plates!"
     uniquePlatesLabel.hidden = false
-    let plateNumber = plateMaker.generatePlate(slots: number!)
+    let plateNumber = plateMaker.generatePlate(number!)
     var character = plateNumber[0]
     for i in 1..<number!{
       character += plateNumber[i]
